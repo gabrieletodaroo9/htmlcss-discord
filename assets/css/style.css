@@ -280,8 +280,7 @@ h2~p {
 
 /* correzione causata da problemi img-social */
 
-.logo-facebook,
-.logo-youtube {
+.logos-align {
     height: 1.7rem;
     vertical-align: text-bottom;
 }
