@@ -86,6 +86,11 @@ h2 {
     padding-bottom: 2rem;
 }
 
+h3 {
+    font-size: 1.8rem;
+
+}
+
 /* LAYOUT */
 
 .container {
@@ -238,7 +243,9 @@ h2~p {
 
 /* FOOTER */
 
-
+li>h3 {
+    color: var(--color-h3footer);
+}
 
 .footer-container a {
     color: var(--color-light);
@@ -247,15 +254,19 @@ h2~p {
 }
 
 .link-footer>li {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     list-style-type: none;
 }
 
 .social-menu {
-    line-height: 2rem;
     font-size: 1.3rem;
 }
 
 .menu-footer {
     line-height: 0.9rem;
+}
+
+span>img {
+    height: 1rem;
+    vertical-align: baseline;
 }
