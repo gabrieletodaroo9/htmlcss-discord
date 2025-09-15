@@ -75,6 +75,16 @@ a{
     color: white;
     font-size: 1.1rem;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
 /* LAYOUT */
 
 .container {
@@ -135,6 +145,19 @@ a{
 .sp-btw{
     justify-content: space-between;
 }
+
+.w-45 {
+    flex-basis: 45%;
+}
+
+.w-55 {
+    flex-basis: 55%;
+}
+
+.ptop-30{
+    padding-top: 30px;
+}
+
 /* NAVBAR */
 
 .header-bg {
@@ -145,20 +168,30 @@ a{
     padding-right: 2rem;
 }
 
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+h1~p {
+    font-size: 1.3rem
+}
+
+
 /* SECTIONS */
+
+h2~p {
+    font-size: 1.5rem;
+}
 
 .main-section {
     justify-content: space-between;
     padding: 4rem 0;
 
-}
-
-.left {
-    flex-basis: 40%;
-}
-
-.right {
-    flex-basis: 55%;
 }
 
 .last-section {
