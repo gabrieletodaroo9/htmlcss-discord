@@ -1,0 +1,185 @@
+
+/* DEBUG */
+
+.debug * {
+    border: 1px dotted;
+}
+
+.debug .header-bg {
+    background-color:#3161e0;
+}
+
+.debug .title {
+    background-color: rgba(48, 18, 201, 0.719);
+}
+
+.debug .jumbotron {
+    background-color:#3161e0;
+}
+
+.debug .left,
+.debug .right {
+    background-color: blueviolet;
+}
+
+.debug footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.debug .separator {
+    border: 2px solid purple;
+}
+.debug #menu-footer{
+    background-color: rgb(109, 44, 44);
+}
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generiche */
+body {
+    font-family: sans-serif;
+}
+
+.bg-lightgray {
+    background-color:lightgrey;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+/* layout */
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-small {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.container.navbar {
+    justify-content: space-between;
+}
+
+.container-small.title {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    padding: 4rem;
+}
+
+.footer-container {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* utili */
+
+.btn {
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+/* navbar */
+
+.navbar {
+    padding: 1.3rem;
+}
+
+/* sezioni */
+
+.main-section {
+    justify-content: space-between;
+    padding: 4rem 0;
+
+}
+
+.left {
+    flex-basis: 40%;
+}
+
+.right {
+    flex-basis: 55%;
+}
+
+.last-section {
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+/* footer */
+#menu-footer {
+    background-color: #23272a;
+    color: #fff;
+} 
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+ font-size: 0.7rem;
+}
+
+.link-footer>li {
+    line-height: 1.5rem;
+    list-style-type: none;
+}
+
+.social {
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.compagnia,
+.risorse,
+.prodotto,
+.norme {
+    line-height: 0.8rem;
+}
+
+.separator {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 2rem;
+    border: 3px solid #313848;
+}
+
+
+.container{
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    align-items: flex-start;
+}
