@@ -44,14 +44,16 @@
 .debug #menu-footer{
     background-color: rgb(109, 44, 44);
 }
-/* reset */
+
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* generiche */
+/* GENERICS */
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -68,31 +70,38 @@ body {
     background-color: lightblue;
 }
 
-/* layout */
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+/* LAYOUT */
 
 .container {
     max-width: 70%;
     margin: 0 auto;
     display: flex;
+    padding-bottom: 3rem;
 }
 
-.container-small {
-    max-width: 50%;
+.container-sm {
+    width: 50%;
+    min-height: 400px;
     margin: 0 auto;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    color: #fff;
+    text-align: center;
 }
+
 
 .container.navbar {
     justify-content: space-between;
-}
-
-.container-small.title {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 350px;
-    padding: 4rem;
+    padding:1.1rem 0;
+    align-items:center;
 }
 
 .footer-container {
@@ -106,29 +115,37 @@ body {
     flex-direction: row-reverse;
 }
 
-/* utili */
+/* UTILS */
 
 .btn {
-    border-radius: 10px;
-    padding: 0.5rem;
+    border-radius: 30px;
+    padding: 0.7rem;
 }
 
 .btn-white {
-    background-color: white;
+    background-color: var(--color-light);
+    border: 1px solid lightgray;
 }
 
 .btn-black {
-    background-color: black;
+    background-color: var(--color-dark);
     color: white;
 }
 
-/* navbar */
+.sp-btw{
+    justify-content: space-between;
+}
+/* NAVBAR */
 
-.navbar {
-    padding: 1.3rem;
+.header-bg {
+    background-color: #255EE9;
 }
 
-/* sezioni */
+.menu-header a {
+    padding-right: 2rem;
+}
+
+/* SECTIONS */
 
 .main-section {
     justify-content: space-between;
@@ -152,7 +169,8 @@ body {
     gap: 2rem;
 }
 
-/* footer */
+/* FOOTER */
+
 #menu-footer {
     background-color: #23272a;
     color: #fff;
@@ -174,11 +192,8 @@ body {
     font-size: 1.3rem;
 }
 
-.compagnia,
-.risorse,
-.prodotto,
-.norme {
-    line-height: 0.8rem;
+.menu-footer {
+    line-height: 0.9rem;
 }
 
 .separator {
@@ -186,11 +201,4 @@ body {
     margin-left: 15%;
     margin-bottom: 2rem;
     border: 3px solid #313848;
-}
-
-
-.container{
-    justify-content: space-between;
-    padding-bottom: 3rem;
-    align-items: flex-start;
 }
