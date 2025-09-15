@@ -1,3 +1,14 @@
+/* ROOT */
+
+:root{
+    --color-bgheader:#3161e0;
+    --color-light:#fff;
+    --color-dark:#23272a;
+    --color-lightdark: #313848;
+    --color-h3footer:#7289da;
+    --color-buttonfooter:#8ea1e1;
+    --colore-separator:#a54848;
+}
 
 /* DEBUG */
 
@@ -42,7 +53,7 @@
 
 /* generiche */
 body {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .bg-lightgray {
