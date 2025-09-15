@@ -250,10 +250,10 @@ h2~p {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 5rem;
-    width: 60%;
+    height: 4rem;
+    width: 50%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 
