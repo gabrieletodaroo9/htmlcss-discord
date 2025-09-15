@@ -20,16 +20,13 @@
 
 <!-- DEBUG -->
 
-<body class="debug">
+<body id="debg">
 
     <!-- NAVBAR -->
 
     <header>
         <div class="header-bg">
-
-
-
-            <div class="navbar container">
+            <div class="navbar container d-flex sp-btw">
                 <div class="logo">
                     <img src="./assets/img/logo.svg" alt="discord-logo">
                 </div>
@@ -52,8 +49,9 @@
     <main>
 
         <!-- JUMBOTRON -->
+
         <div class="jumbotron">
-            <div class="container-sm title">
+            <div class="container-sm d-flex sp-btw">
                 <h1>Il tuo posto per parlare</h1>
                 <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o
                     semplicemente di un piccolo gruppo di amici che vuole passare del tempo insieme, Discord rende più
@@ -72,7 +70,7 @@
         <!-- Prima Sezione -->
 
         <section class="bg-white">
-            <div class="container main-section">
+            <div class="container main-section d-flex">
                 <div class="w-60">
                     <img src="./assets/img/item1.svg" alt="study-group">
                 </div>
@@ -93,7 +91,7 @@
         <!-- Seconda Sezione -->
 
         <section class="bg-lightgray">
-            <div class="container main-section sp-btw reverse">
+            <div class="container main-section d-flex reverse">
                 <div class="w-60">
                     <img src="./assets/img/item2.svg" alt="just-chill">
                 </div>
@@ -108,6 +106,7 @@
         </section>
 
         <!-- effetto onda -->
+
         <div class="wave reverse-wave">
             <img src="./assets/img/wave.svg" alt="wave">
         </div>
@@ -116,7 +115,7 @@
         <!-- Terza Sezione -->
 
         <section class="bg-white">
-            <div class="container main-section">
+            <div class="container d-flex main-section">
                 <div class="w-60">
                     <img src="./assets/img/item3.svg" alt="coach">
                 </div>
@@ -139,7 +138,7 @@
         <!-- Quarta Sezione -->
 
         <section class="bg-lightgray">
-            <div class="container last-section">
+            <div class="container d-flex last-section">
                 <h2>Tecnologia affidabile per tenersi in contatto</h2>
                 <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in
                     video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la
@@ -161,7 +160,7 @@
 
         <!-- Menu Social -->
 
-        <div class="container footer-container">
+        <div class="container d-flex footer-container sp-btw">
             <div class="social-menu">
                 <ul class="link-footer">
                     <li>
@@ -174,14 +173,26 @@
                         </span>
                     </li>
                     <li>
-                        <a href=""><img src="" alt="" class="logo-twitter"></a>
-                        <a href=""><img src="" alt="" class="logo-instagram"></a>
-                        <a href=""><img src="" alt="" class="logo-facebook"></a>
-                        <a href=""><img src="" alt="" class="logo-youtube"></a>
+                        <a href="">
+                            <img src="./assets/img/twitter-logo.png" alt="logo-twitter">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/instagram-logo.png" alt="logo-instagram">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/facebook-logo.png" alt="logo-facebook" class="logo-facebook">
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/youtube-logo.jpeg" alt="logo-youtube" class="logo-youtube">
+                        </a>
                     </li>
                 </ul>
             </div>
+
+            <!-- MENU FOOTER -->
+
             <!-- Sezione Prodotto -->
+
             <div class="menu-footer">
                 <ul class="link-footer">
                     <li>
@@ -194,8 +205,6 @@
                     <li><a href="">Assistenza</a></li>
                 </ul>
             </div>
-
-            <!-- MENU FOOTER -->
 
             <!--Sezione Compagnia -->
 
@@ -256,15 +265,11 @@
         <!-- LOGIN FOOTER -->
 
         <div class="separator "></div>
-        <div class="container sp-btw">
+        <div class="container d-flex sp-btw">
             <img src="./assets/img/logo.svg" alt="logo-discord">
             <button class="btn btn-lightblue">Registrati
             </button>
         </div>
-
-    </footer>
-
-
+ </footer>
 </body>
-
 </html>
